@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+
 .status-bar {
   display: flex;
   justify-content: center;
 }
 .status-bar__column {
   width: 33%;
+  font-family: "Raleway", sans-serif;
+}
+.status-bar__column:first-of-type {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .status-bar__column:nth-of-type(2) {
   display: flex;
@@ -16,4 +24,13 @@
 }
 .status-bar__column:first-of-type span {
   margin-right: 7px;
+}
+.status-bar__column:last-of-type span {
+  padding-bottom: 3.3px;
+}
+.status-bar__column .fa-battery-three-quarters {
+  margin: 0px 6px;
+}
+.fa-lock {
+  margin-right: 10px;
 }
