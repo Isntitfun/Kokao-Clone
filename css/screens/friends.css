@@ -13,26 +13,3 @@
   margin: 0px 6px 0px 11px;
   color: rgba(0, 0, 0, 0.2);
 }
-.user__img {
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
-}
-.user {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-.user__title {
-  font-weight: 500;
-  font-size: 14pt;
-  padding-bottom: 4px;
-}
-.user__subtitle {
-  color: rgba(0, 0, 0, 0.5);
-  padding-top: 4px;
-  font-size: 11pt;
-}
-.user__column:nth-of-type(2) {
-  margin-left: 13px;
-}
