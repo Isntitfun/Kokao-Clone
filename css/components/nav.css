@@ -21,3 +21,30 @@
   text-decoration: none;
   color: rgb(65, 65, 65);
 }
+i {
+  position: relative;
+}
+.nav__notification {
+  width: 20px;
+  height: 20px;
+  font-size: 9px;
+  color: white;
+  background-color: tomato;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+}
+.nav__notification-dot {
+  width: 5px;
+  height: 5px;
+  color: white;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 22px;
+}
