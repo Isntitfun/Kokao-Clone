@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
 @import "reset.css";
 @import "variables.css";
-@import "status-bar.css";
-@import "sign-up-screen.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav.css";
+
+/* Screens */
+@import "screens/sign-up-screen.css";
+@import "screens/friends.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
