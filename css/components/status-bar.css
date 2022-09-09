@@ -2,6 +2,9 @@
   display: flex;
   justify-content: center;
   margin: 5px 3px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 .status-bar__column {
   width: 33%;
@@ -12,6 +15,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 12px;
 }
 .status-bar__column:nth-of-type(2) {
   display: flex;
@@ -21,6 +25,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 15px;
 }
 .status-bar__column:first-of-type span {
   margin-right: 7px;
