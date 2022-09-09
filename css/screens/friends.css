@@ -1,0 +1,15 @@
+.friends-name-display {
+  background-color: #fafafa;
+  padding: 18px 0px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(65, 65, 65);
+  font-size: 15px;
+  font-weight: 500;
+}
+.friends-name-display i {
+  margin: 0px 6px 0px 11px;
+  color: rgba(0, 0, 0, 0.2);
+}
