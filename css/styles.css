@@ -4,7 +4,8 @@
 
 .sign-up-header {
   text-align: center;
-  margin: 90px 0px;
+  margin-top: 20vh;
+  margin-bottom: 90px;
 }
 .sign-up-header__title {
   margin-bottom: 40px;
