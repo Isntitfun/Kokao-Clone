@@ -14,9 +14,13 @@
   justify-content: center;
   align-items: center;
 }
+.user__text {
+  display: flex;
+  flex-direction: column;
+}
 .user__title {
   font-weight: 500;
-  font-size: 14pt;
+  font-size: 20px;
   padding-bottom: 4px;
   margin-left: 17px;
 }
@@ -27,7 +31,8 @@
 .user__subtitle {
   color: rgba(0, 0, 0, 0.5);
   padding-top: 4px;
-  font-size: 11pt;
+  font-size: 17px;
+  margin-left: 19px;
 }
 .user__img-sm {
   width: 55px;
