@@ -1,0 +1,26 @@
+.more-screen {
+  margin-top: 25px;
+}
+.more__user-icon {
+  color: rgba(0, 0, 0, 0.85);
+}
+.more__suggestions {
+  margin-top: 40px;
+  padding: 30px 0px;
+  border-top: 1px solid var(--opaque-border);
+}
+.more__suggestions-title {
+  font-weight: 500;
+  font-size: 17px;
+}
+.more-icons span {
+  font-weight: 400;
+  opacity: 0.95;
+}
+.more__suggestions span {
+  font-weight: 400;
+  color: var(--grey-text);
+}
+.more__suggestions i {
+  color: var(--yellow);
+}

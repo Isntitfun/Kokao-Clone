@@ -34,6 +34,8 @@
   padding-top: 4px;
   font-size: 19px;
   margin-left: 19px;
+  display: flex;
+  align-items: center;
 }
 .user__img-sm {
   width: 55px;
@@ -61,4 +63,7 @@
 }
 .user__column-box i {
   margin-left: 3px;
+}
+.user__subtitle-notification {
+  margin-left: 5px;
 }

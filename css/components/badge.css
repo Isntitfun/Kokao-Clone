@@ -9,3 +9,20 @@
   justify-content: center;
   align-items: center;
 }
+.badge-alt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13px;
+  height: 13px;
+  font-size: 11px;
+  font-weight: 600;
+  color: tomato;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid tomato;
+}
+.badge-alt span {
+  position: relative;
+  top: 0.5px;
+}
