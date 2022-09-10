@@ -12,10 +12,11 @@
 /* Screens */
 @import "screens/sign-up-screen.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Mukta", sans-serif;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(0, 0, 0, 0.85);
 }
 main {
   margin: 0px var(--side-margin);
