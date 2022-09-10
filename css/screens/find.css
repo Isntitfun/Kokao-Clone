@@ -21,3 +21,21 @@
   font-weight: 500;
   font-size: 17px;
 }
+.recommended-friends {
+  border-top: 1px solid var(--opaque-border);
+  border-bottom: 1px solid var(--opaque-border);
+  margin-top: 20px;
+}
+.recommended-friends__title {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--grey-text);
+}
+.recommended-friends__text {
+  text-align: center;
+  margin-top: 115px;
+  margin-bottom: 115px;
+  font-size: 20px;
+  color: var(--grey-text);
+}
