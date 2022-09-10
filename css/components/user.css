@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .user__column {
   display: flex;

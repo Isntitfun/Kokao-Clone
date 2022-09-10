@@ -30,8 +30,8 @@ i {
   left: 15px;
 }
 .nav__notification-dot {
-  width: 4px;
-  height: 4px;
+  width: 5px;
+  height: 5px;
   background-color: tomato;
   border-radius: 50%;
   position: absolute;
@@ -40,8 +40,8 @@ i {
 }
 .nav__notification-dot2 {
   display: block;
-  width: 4px;
-  height: 4px;
+  width: 5px;
+  height: 5px;
   background-color: tomato;
   border-radius: 50%;
   position: relative;
