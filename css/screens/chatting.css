@@ -97,3 +97,86 @@
 .message-row__outgoing .message-row__text {
   order: 1;
 }
+.input {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  width: 100%;
+  background-color: white;
+}
+.input__column {
+  display: flex;
+  align-items: center;
+}
+.input__column:first-child {
+  width: 80px;
+  justify-content: center;
+}
+.input__column:last-child {
+  margin-left: 50px;
+  width: 100%;
+  justify-content: flex-end;
+  margin: 0px;
+}
+.input__others {
+  width: 23px;
+  height: 23px;
+  color: var(--grey-text);
+  border: 2px solid var(--grey-text);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.type-box {
+  width: 100%;
+  padding-right: 25px;
+}
+.input .typing {
+  margin-right: 14px;
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: 1.4px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 25px;
+  margin-right: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 19px;
+}
+.input input {
+  outline: none;
+}
+.type-box i {
+  opacity: 0.9;
+}
+.type-box i:first-of-type {
+  position: absolute;
+  font-size: 24px;
+  right: 80px;
+  top: 23px;
+}
+
+.type-box i:last-of-type {
+  position: absolute;
+  font-size: 23px;
+  right: 41px;
+  top: 23px;
+}
+.type-box input:nth-of-type(2) {
+  position: absolute;
+  right: 30px;
+  top: 13.5px;
+  width: 42px;
+  height: 42px;
+  border-width: 0px;
+  background-color: rgb(255, 200, 193);
+  border-radius: 20px;
+}
+
+.type-box input[type="submit"]:active {
+  background-color: rgb(255, 216, 210);
+}
