@@ -1,0 +1,12 @@
+.splash-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
