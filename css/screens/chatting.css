@@ -34,7 +34,13 @@
 }
 .message-row {
   display: flex;
+  margin-top: 27px;
+  position: relative;
 }
+.message-row__column:first-child {
+  padding-bottom: 20px;
+}
+
 .message-row__column:nth-child(2) {
   margin-left: 12px;
   display: flex;
@@ -42,7 +48,31 @@
   justify-content: center;
   align-items: flex-start;
 }
+.message-row__user {
+  margin-bottom: 4px;
+  font-size: 18px;
+  opacity: 0.85;
+}
 .message-row__content {
   display: flex;
   align-items: flex-end;
+  margin-top: 4px;
+}
+.message-row__time {
+  margin-left: 5px;
+  font-size: 16px;
+  opacity: 0.85;
+}
+.message-row__text {
+  background-color: white;
+  padding: 14px;
+  border-radius: 13px;
+  border-top-left-radius: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message-row__text span {
+  position: relative;
+  top: 1px;
 }
