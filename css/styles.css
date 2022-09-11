@@ -17,6 +17,7 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/setting.css";
+@import "screens/chatting.css";
 
 body {
   font-family: "Mukta", sans-serif;
@@ -29,5 +30,5 @@ main {
   margin-top: 30px;
 }
 .chat-screen {
-  background-color: rgb(184, 184, 184);
+  background-color: rgb(224, 224, 224);
 }
