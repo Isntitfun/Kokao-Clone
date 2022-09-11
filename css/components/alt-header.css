@@ -1,13 +1,10 @@
 .alt-header {
-  margin-top: 45px;
-  margin-bottom: 18px;
-  position: fixed;
+  padding-top: 45px;
+  padding-bottom: 18px;
   top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  box-sizing: border-box;
   z-index: 2;
 }
 .alt-header__column {
