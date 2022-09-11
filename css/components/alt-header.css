@@ -3,11 +3,16 @@
   margin-top: 37px;
   margin-bottom: 18px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
-  color: rgba(0, 0, 0, 0.85);
 }
 .alt-header__column span {
   font-size: 25px;
   font-weight: 600;
+}
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+.alt-header__column:last-child {
+  margin-left: auto;
 }

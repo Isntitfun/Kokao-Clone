@@ -1,7 +1,11 @@
+.settings__main-list {
+  margin-top: 25px;
+}
 .settings__list-item {
   padding: 20px 7px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .settings__list-item i {
   width: 30px;
@@ -9,13 +13,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
   margin-right: 15px;
+  opacity: 0.9;
 }
 .settings__list-item span {
   display: block;
-  height: inherit;
+  height: 30px;
   font-size: 25px;
+  position: relative;
+  top: 3px;
 }
 .middle-item-bordered {
   border-bottom: 1px solid rgba(0, 0, 0, 0.03);
@@ -27,4 +33,13 @@
   background-color: rgba(0, 0, 0, 0.15);
   margin: 25px 0px;
   transform: translateX(-20px);
+}
+.settings__main-list-column {
+  display: flex;
+  align-items: center;
+}
+.settings__main-list-column:last-child {
+  color: var(--grey-text);
+  font-size: 23px;
+  font-weight: 500;
 }
