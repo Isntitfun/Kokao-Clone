@@ -1,3 +1,15 @@
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    color: rgb(230, 81, 111);
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .recommended-friends {
   border-top: 1px solid var(--opaque-border);
   border-bottom: 1px solid var(--opaque-border);
@@ -97,8 +109,14 @@
   right: 10px;
 }
 .open-chat__heartN i {
+  will-change: transform;
   margin-right: 6px;
 }
+
+.open-chat__heartN:hover i {
+  animation: heartbeat 1s infinite;
+}
+
 .open-chat__heartN div {
   transform: translateY(1px);
 }

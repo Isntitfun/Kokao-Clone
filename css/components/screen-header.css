@@ -1,3 +1,12 @@
+@keyframes rotate-cog {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(720deg);
+  }
+}
+
 .screen-header {
   margin-top: 55px;
   margin-bottom: 18px;
@@ -11,9 +20,20 @@
   font-weight: 600;
   margin-left: 25px;
 }
+.screen-header__setting {
+  position: relative;
+}
+
 .screen-header__icons {
   margin-right: 25px;
 }
 .screen-header__icons a {
   margin-left: 23px;
+}
+.screen-header__icons .fa-gear:hover {
+  animation: rotate-cog 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.screen-header__setting .nav__notification-dot {
+  bottom: 23px;
+  left: 20px;
 }
