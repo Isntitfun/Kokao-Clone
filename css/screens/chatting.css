@@ -109,7 +109,7 @@
   box-sizing: border-box;
   background-color: white;
   transition: var(--input-active);
-  animation: input-anime 0.5s ease-in-out;
+  animation: input-anime 0.3s ease-in-out;
 }
 .type-box {
   display: flex;
@@ -118,7 +118,7 @@
   width: 100%;
   position: relative;
   transition: var(--input-active);
-  animation: type-box-anime 0.5s ease-in-out;
+  animation: type-box-anime 0.3s ease-in-out;
 }
 .submit {
   position: relative;
@@ -136,7 +136,7 @@
   padding: 20px;
   box-sizing: border-box;
   font-size: 19px;
-  animation: typing-color 0.5s ease-in-out;
+  animation: typing-color 0.3s ease-in-out;
 }
 .input input,
 .input button {
@@ -146,7 +146,7 @@
   opacity: 0.9;
 }
 .type-box .input__others {
-  width: 25px;
+  width: 27px;
   height: 25px;
   margin-right: 20px;
   opacity: 0.6;
@@ -157,7 +157,7 @@
   border: 2px solid var(--grey-text);
   border-radius: 7px;
   transition: var(--input-active);
-  animation: input__others-anime 0.5s ease-in-out;
+  animation: input__others-anime 0.3s ease-in-out;
 }
 .type-box i:nth-child(3) {
   position: absolute;
